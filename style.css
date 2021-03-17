@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-image: url(/track.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 3;
+    grid-auto-rows: 100px;
+    padding-top: 20%;
+}
+
+.stopwatch {
+    justify-self: center;
+    font-size: 300%;
+    color: black;
+}
+
+.time-display {
+    justify-self: center;
+    font-size: xx-large;
+}
+
+.button-container {
+    justify-self: center;
+}
+
+.button {
+
+}
